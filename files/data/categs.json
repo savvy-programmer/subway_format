@@ -1,0 +1,137 @@
+{
+	"boss": {
+		"name": "Boss",
+		"min": 0,
+		"max": 3
+	},
+	"heavy": {
+		"name": "Heavy",
+		"min": 0,
+		"max": 2
+	},
+	"standard": {
+		"name": "Standard",
+		"min": 0,
+		"max": 1
+	},
+	"defender": {
+		"name": "Defender",
+		"min": 0,
+		"max": 2
+	},
+	"solid": {
+		"name": "Solid",
+		"min": 0,
+		"max": 2
+	},
+	"basic": {
+		"name": "Basic",
+		"min": 0,
+		"max": 2
+	},
+	"underdog": {
+		"name": "Underdog",
+		"min": 0,
+		"max": 2
+	},
+	"flip": {
+		"name": "Flip",
+		"min": 0,
+		"max": 1
+	},
+	"searcher": {
+		"name": "Searcher",
+		"min": 0,
+		"max": 2
+	},
+	"staple": {
+		"name": "Staple",
+		"min": 0,
+		"max": 4
+	},
+	"massRemoval": {
+		"name": "Mass Removal",
+		"min": 0,
+		"max": 1
+	},
+	"monsterRemoval": {
+		"name": "Monster Removal",
+		"min": 0,
+		"max": 2
+	},
+	"equipBoost": {
+		"name": "Equip Boost",
+		"min": 0,
+		"max": 1
+	},
+	"stall": {
+		"name": "Stall",
+		"min": 0,
+		"max": 1
+	},
+	"positionControl": {
+		"name": "Position Control",
+		"min": 1,
+		"max": 2
+	},
+	"reborn": {
+		"name": "Reborn",
+		"min": 0,
+		"max": 1
+	},
+	"battleTrick": {
+		"name": "Battle Trick",
+		"min": 0,
+		"max": 2
+	},
+	"recovery": {
+		"name": "Recovery",
+		"min": 1,
+		"max": 1
+	},
+	"targetRedirection": {
+		"name": "Target Redirection",
+		"min": 1,
+		"max": 1
+	},
+	"protection": {
+		"name": "Protection",
+		"min": 1,
+		"max": 1
+	},
+	"burn": {
+		"name": "Burn",
+		"min": 1,
+		"max": 1
+	},
+	"themedEquip": {
+		"name": "Themed Equip",
+		"min": 1,
+		"max": 1
+	},
+	"backrowRemoval": {
+		"name": "Backrow Removal",
+		"min": 0,
+		"max": 2
+	},
+	"tacticalTool1": {
+		"name": "Tactical Tool 1",
+		"min": 0,
+		"max": 2
+	},
+	"tacticalTool2": {
+		"name": "Tactical Tool 2",
+		"min": 0,
+		"max": 2
+	},
+	"tacticalTool3": {
+		"name": "Tactical Tool 3",
+		"min": 0,
+		"max": 2
+	},
+	"comboSupport": {
+		"name": "Combo Support",
+		"min": 0,
+		"max": 2
+	}
+}

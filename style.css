@@ -1,0 +1,198 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	/*
+	border: dotted;
+	border-color: magenta;
+	border-width: 1px;
+	*/
+}
+
+#p1{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	border: solid;
+	border-width: 1px;
+	border-color: black;
+	font-size: 0;
+}
+
+#p1p1,#p1p2,#p1p3,#p1p4,#p1p5{
+	position: absolute;
+	border: solid;
+	border-width: 1px;
+	border-color: black;
+	background-color: #ccceb2;
+}
+
+#p1p1{
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 12%;
+}
+
+#p1p2,#p1p3,#p1p4{
+	top: 12%;
+	height: 84%;
+}
+
+#p1p2{
+	left: 0;
+	width: 20%;
+}
+
+#p1p3{
+	left: 20%;
+	width: 20%;
+}
+
+#p1p4{
+	left: 40%;
+	width: 60%;
+}
+
+#p1p5{
+	left: 0;
+	top: 96%;
+	width: 100%;
+	height: 4%;
+}
+
+#p1p1t1{
+	margin-left: .7%;
+	line-height: 12vh;
+	font-size: 2.5vw;
+	font-weight: bold;
+	color: black;
+}
+
+#p1p2t1,#p1p3t1,#p1p4t1{
+	margin-top: 1vh;
+	font-size: 1vw;
+	font-weight: bold;
+}
+
+#p1p2t1,#p1p3t1{
+	margin-left: 3.6%;
+}
+
+#p1p4t1{
+	margin-left: 1.2%;
+}
+
+#p1p5t1{
+	width: 99%;
+	line-height: 4vh;
+	text-align: right;
+	font-size: .9vw;
+}
+
+.categ{
+	margin-left: 0;
+	margin-top: 0;
+	font-size: .8vw;
+	cursor: pointer;
+}
+
+#p1p3t2,#p1p4t2{
+	margin-top: 1vh;
+	font-size: .7vw;
+}
+
+#p1p3t1,#p1p3t2{
+	margin-left: 3.6%;
+}
+
+#p1p4t1,#p1p4t2{
+	margin-left: 1.2%;
+}
+
+#p1p3p1,#p1p4p1{
+	position: relative;
+	margin-top: 1vh;
+	height: 70%;
+	border: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+#p1p3p1{
+	margin-left: 3.6%;
+	width: 92.8%;
+}
+
+#p1p4p1{
+	margin-left: 1.21%;
+	width: 97.6%;
+}
+
+#p1p3bt1,#p1p3bt2,#p1p4bt1,#p1p4bt2,#p1p4bt3,#p1p4bt4{
+	margin-top: 1vh;
+	border: solid;
+	border-width: 2px;
+	border-radius: 5px;
+	border-color: black;
+	background-color: #c2c595;
+	cursor: pointer;
+}
+
+#p1p3bt1,#p1p3bt2{
+	margin-left: 3.6%;
+	width: 14.3%;
+	height: 3vh;
+}
+
+#p1p4bt1,#p1p4bt2,#p1p4bt3,#p1p4bt4{
+	margin-left: 1.2%;
+	width: 9.5%;
+	height: 3vh;
+}
+
+#p1p3t3{
+	display: inline-block;
+	width: 60.6%;
+	font-size: 1vw;
+	text-align: right;
+	margin-left: 0%;
+}
+
+#p1p2p1{
+	margin-left: 3.6%;
+	margin-top: 1vh;
+	width: 92.8%;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+#p1p2p1p1{
+	width: 100%;
+}
+
+.img{
+	position: absolute;
+	left: 2%;
+	top: 2%;
+	width: 96%;
+	height: 96%;
+	cursor: pointer;
+}
+
+.categSlot,.deckSlot{
+	position: absolute;
+	height: 25%;
+	border: dotted;
+	border-width: 1px;
+	border-color: black;
+}
+
+.categSlot{
+	width: 33.3%;
+}
+
+.deckSlot{
+	width: 10%;
+}
