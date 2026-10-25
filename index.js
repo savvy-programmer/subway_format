@@ -1,11 +1,3 @@
-/*
- *	pane p1p4 buttons
- *	formatting
- *	reassignment (consider new categories, cards, shield & sword, staples, searchers)
- *	upload on github
- *	get ssl
- */
-
 let p1p2p1p1=document.getElementById('p1p2p1p1');
 let p1p3t1=document.getElementById('p1p3t1');
 let p1p3t2=document.getElementById('p1p3t2');
@@ -137,14 +129,19 @@ function assignCategNameActions(){
 
 			p1p3t1.innerHTML=categs[curCategName].name;
 
-			if(categs[curCategName].min==0){
-				p1p3t2.innerHTML='Choose up to '+categs[curCategName].max+' cards';
-			}else if(categs[curCategName].min==categs[curCategName].max && categs[curCategName].min==1){
-				p1p3t2.innerHTML='Choose '+categs[curCategName].min+' card';
-			}else if(categs[curCategName].min==categs[curCategName].max && categs[curCategName].min>1){
-				p1p3t2.innerHTML='Choose '+categs[curCategName].min+' cards';
+			let nMin=categs[curCategName].min;
+			let nMax=categs[curCategName].max;
+
+			if(nMin==0){
+				if(nMax==1){
+					p1p3t2.innerHTML='Choose up to 1 card';
+				}else{
+					p1p3t2.innerHTML='Choose up to '+nMax+' cards';
+				}
+			}else if(nMin==1 && nMax==1){
+				p1p3t2.innerHTML='Choose 1 card';
 			}else{
-				p1p3t2.innerHTML='Choose '+categs[curCategName].min+' to '+categs[curCategName].max+' cards';
+				p1p3t2.innerHTML='Choose '+nMin+' to '+nMax+' cards';
 			}
 
 			categCards=[];
@@ -407,14 +404,18 @@ function assignButtonActions(){
 
 	p1p4bt4.addEventListener('click',ev=>{
 		if(deck.length<40){
+			alert('Deck must have 40 cards!');
 			return;
 		}
 
 		for(let [k,v] of mapCategCount.entries()){
 			if(v<categs[k].min){
+				alert('Some categories require a minimum amount of cards!\nPlease, review your deck!');
 				return;
 			}
 		}
+
+		let deckName=prompt('Type your deck name:');
 
 		let text='#created by ... \n#main\n';
 
@@ -428,7 +429,7 @@ function assignButtonActions(){
 		let a=document.createElement('a');
 		a.href=URL.createObjectURL(blob);
 
-		a.download='subway.ydk';
+		a.download=deckName+'.ydk';
 
 		document.body.appendChild(a);
 		a.click();

@@ -4,13 +4,13 @@
 		"min": 0,
 		"max": 3
 	},
-	"heavy": {
-		"name": "Heavy",
+	"beater": {
+		"name": "Beater",
 		"min": 0,
 		"max": 2
 	},
-	"standard": {
-		"name": "Standard",
+	"fighter": {
+		"name": "Fighter",
 		"min": 0,
 		"max": 1
 	},
@@ -19,13 +19,13 @@
 		"min": 0,
 		"max": 2
 	},
-	"solid": {
-		"name": "Solid",
+	"standard": {
+		"name": "Standard",
 		"min": 0,
 		"max": 2
 	},
-	"basic": {
-		"name": "Basic",
+	"regular": {
+		"name": "Regular",
 		"min": 0,
 		"max": 2
 	},
@@ -59,30 +59,40 @@
 		"min": 0,
 		"max": 2
 	},
-	"equipBoost": {
-		"name": "Equip Boost",
+	"backrowRemoval": {
+		"name": "Backrow Removal",
+		"min": 0,
+		"max": 2
+	},
+	"genericBoost": {
+		"name": "Generic Boost",
 		"min": 0,
 		"max": 1
 	},
-	"stall": {
-		"name": "Stall",
-		"min": 0,
+	"themedBoost": {
+		"name": "Themed Boost",
+		"min": 1,
 		"max": 1
+	},
+	"comboSupport": {
+		"name": "Combo Support",
+		"min": 0,
+		"max": 2
 	},
 	"positionControl": {
 		"name": "Position Control",
 		"min": 1,
 		"max": 2
 	},
-	"reborn": {
-		"name": "Reborn",
-		"min": 0,
-		"max": 1
-	},
 	"battleTrick": {
 		"name": "Battle Trick",
 		"min": 0,
 		"max": 2
+	},
+	"reborn": {
+		"name": "Reborn",
+		"min": 0,
+		"max": 1
 	},
 	"recovery": {
 		"name": "Recovery",
@@ -99,20 +109,15 @@
 		"min": 1,
 		"max": 1
 	},
+	"stall": {
+		"name": "Stall",
+		"min": 0,
+		"max": 1
+	},
 	"burn": {
 		"name": "Burn",
 		"min": 1,
 		"max": 1
-	},
-	"themedEquip": {
-		"name": "Themed Equip",
-		"min": 1,
-		"max": 1
-	},
-	"backrowRemoval": {
-		"name": "Backrow Removal",
-		"min": 0,
-		"max": 2
 	},
 	"tacticalTool1": {
 		"name": "Tactical Tool 1",
@@ -126,11 +131,6 @@
 	},
 	"tacticalTool3": {
 		"name": "Tactical Tool 3",
-		"min": 0,
-		"max": 2
-	},
-	"comboSupport": {
-		"name": "Combo Support",
 		"min": 0,
 		"max": 2
 	}

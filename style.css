@@ -10,6 +10,10 @@
 	*/
 }
 
+body{
+	overflow-y: hidden;
+}
+
 #p1{
 	position: relative;
 	width: 100vw;

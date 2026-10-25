@@ -69,7 +69,7 @@
         "type": "monster",
         "subType1": "normal",
         "level": 4,
-        "category": "basic"
+        "category": "regular"
     },
     {
         "passcode": "85639257",
@@ -85,7 +85,7 @@
         "type": "monster",
         "subType1": "normal",
         "level": 4,
-        "category": "heavy"
+        "category": "beater"
     },
     {
         "passcode": "32452818",
@@ -101,7 +101,7 @@
         "type": "monster",
         "subType1": "normal",
         "level": 4,
-        "category": "solid"
+        "category": "standard"
     },
     {
         "passcode": "30655537",
@@ -109,7 +109,7 @@
         "type": "monster",
         "subType1": "normal",
         "level": 4,
-        "category": "basic"
+        "category": "regular"
     },
     {
         "passcode": "41392891",
@@ -141,7 +141,7 @@
         "type": "monster",
         "subType1": "normal",
         "level": 4,
-        "category": "standard"
+        "category": "fighter"
     },
     {
         "passcode": "2118022",
@@ -149,7 +149,7 @@
         "type": "monster",
         "subType1": "normal",
         "level": 4,
-        "category": "solid"
+        "category": "standard"
     },
     {
         "passcode": "67724379",
@@ -157,7 +157,7 @@
         "type": "monster",
         "subType1": "normal",
         "level": 4,
-        "category": "solid"
+        "category": "standard"
     },
     {
         "passcode": "97590747",
@@ -165,7 +165,7 @@
         "type": "monster",
         "subType1": "normal",
         "level": 4,
-        "category": "heavy"
+        "category": "beater"
     },
     {
         "passcode": "15025844",
@@ -181,7 +181,7 @@
         "type": "monster",
         "subType1": "normal",
         "level": 4,
-        "category": "standard"
+        "category": "fighter"
     },
     {
         "passcode": "44073668",
@@ -189,7 +189,7 @@
         "type": "monster",
         "subType1": "normal",
         "level": 4,
-        "category": "solid"
+        "category": "standard"
     },
     {
         "passcode": "93343894",
@@ -197,7 +197,7 @@
         "type": "monster",
         "subType1": "normal",
         "level": 4,
-        "category": "basic"
+        "category": "regular"
     },
     {
         "passcode": "88819587",
@@ -241,7 +241,7 @@
     },
     {
         "passcode": "89091579",
-        "name": "Basic Insect",
+        "name": "regular Insect",
         "type": "monster",
         "subType1": "normal",
         "level": 2,
@@ -277,7 +277,7 @@
         "type": "monster",
         "subType1": "effect",
         "level": 4,
-        "category": "basic"
+        "category": "regular"
     },
     {
         "passcode": "28358902",
@@ -285,7 +285,7 @@
         "type": "monster",
         "subType1": "effect",
         "level": 4,
-        "category": "solid"
+        "category": "standard"
     },
     {
         "passcode": "94773007",
@@ -293,7 +293,7 @@
         "type": "monster",
         "subType1": "effect",
         "level": 4,
-        "category": "heavy"
+        "category": "beater"
     },
     {
         "passcode": "17985575",
@@ -309,7 +309,7 @@
         "type": "monster",
         "subType1": "effect",
         "level": 4,
-        "category": "heavy"
+        "category": "beater"
     },
     {
         "passcode": "13945283",
@@ -341,7 +341,7 @@
         "type": "monster",
         "subType1": "effect",
         "level": 3,
-        "category": "standard"
+        "category": "fighter"
     },
     {
         "passcode": "2460565",
@@ -557,7 +557,7 @@
         "type": "magic",
         "subType1": "equip",
         "level": -1,
-        "category": "equipBoost"
+        "category": "genericBoost"
     },
     {
         "passcode": "91595718",
@@ -565,7 +565,7 @@
         "type": "magic",
         "subType1": "equip",
         "level": -1,
-        "category": "themedEquip"
+        "category": "themedBoost"
     },
     {
         "passcode": "4614116",
@@ -573,7 +573,7 @@
         "type": "magic",
         "subType1": "equip",
         "level": -1,
-        "category": "themedEquip"
+        "category": "themedBoost"
     },
     {
         "passcode": "1435851",
@@ -581,7 +581,7 @@
         "type": "magic",
         "subType1": "equip",
         "level": -1,
-        "category": "themedEquip"
+        "category": "themedBoost"
     },
     {
         "passcode": "97687912",
@@ -605,7 +605,7 @@
         "type": "magic",
         "subType1": "equip",
         "level": -1,
-        "category": "themedEquip"
+        "category": "themedBoost"
     },
     {
         "passcode": "61854111",
@@ -613,7 +613,7 @@
         "type": "magic",
         "subType1": "equip",
         "level": -1,
-        "category": "themedEquip"
+        "category": "themedBoost"
     },
     {
         "passcode": "55226821",
@@ -629,7 +629,7 @@
         "type": "magic",
         "subType1": "equip",
         "level": -1,
-        "category": "equipBoost"
+        "category": "genericBoost"
     },
     {
         "passcode": "70828912",
